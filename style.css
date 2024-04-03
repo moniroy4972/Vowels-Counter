@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: url("https://thumbs.dreamstime.com/b/vowels-e-i-o-u-background-white-colored-clay-165713367.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.heading {
+  margin: 40px 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+  text-shadow: 3px 2px 5px red;
+}
+.container {
+  border: 2px solid red;
+  width: 600px;
+  padding: 40px;
+  box-shadow: 3px 3px 16px rgb(102, 96, 96);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.cards {
+  padding: 0px 40px;
+  position: relative;
+}
+#btn {
+  margin: 10px 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  box-shadow: 5px 5px 10px rgb(16, 16, 16);
+  cursor: pointer;
+  width: 90px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+#btn:hover {
+  font-size: 17px;
+  background-color: lightblue;
+}
+
+#input {
+  margin: 10px 0px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  box-shadow: 5px 5px 10px rgb(16, 16, 16);
+}
+.head {
+  margin-top: 10px;
+}
+#para1{
+color: rgb(255, 140, 0);
+}
+#para2{
+color: rgb(255, 136, 0);
+}
+
